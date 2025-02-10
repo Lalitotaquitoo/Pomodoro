@@ -37,5 +37,5 @@
 
 ### 1️⃣ **Clona el repositorio**  
 ```sh
-git clone https://github.com/usuario/pomodoro-timer.git
+git clone https://github.com/Lalitotaquitoo/Pomodoro.git
 cd pomodoro-timer
