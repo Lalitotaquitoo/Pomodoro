@@ -1,6 +1,5 @@
 # ⏳ Pomodoro Timer 🚀  
 
-![Pomodoro Timer](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW82d21haTkwY3Qyd3hpYWkycnM0bmhvOTlkcml3eW1xN3JncW4xcyZlcD12MV9pbnRlcm5naWZfYnlfaWQmY3Q9Zw/pI43YlhMoPqsE/giphy.gif)
 
 [![Flet](https://img.shields.io/badge/Made%20with-Flet-blue?style=for-the-badge)](https://flet.dev/)  
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)  
