@@ -21,10 +21,15 @@
 
 ## 📸 **Capturas de pantalla**
 ### 🏠 **Pantalla de inicio**
-![Inicio](./assets/inicio.png)
+<p align="center">
+  <img src="./assets/inicio.png" alt="Inicio">
+</p>
 
 ### ⏳ **Pantalla del temporizador**
-![Temporizador](./assets/timer.png)
+<p align="center">
+  <img src="./assets/timer.png" alt="Temporizador">
+</p>
+
 
 ---
 
