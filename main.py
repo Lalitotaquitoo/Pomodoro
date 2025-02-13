@@ -118,13 +118,17 @@ def main(page: ft.Page):
             page.update()
 
     async def start_timer():
-        while tasks:
-            await countdown(25, 0, "Trabajo")  # 25 minutos de trabajo
-            if tasks:
-                tasks.pop(0)
-                task_list.controls.pop(0)
-                page.update()
-            await countdown(5, 0, "Descanso")   # 5 minutos de descanso
+        if not tasks:
+            await countdown(25, 0, "Trabajo")
+            await countdown(5, 0, "Descanso")
+        else:
+            while tasks:
+                await countdown(25, 0, "Trabajo")  # 25 minutos de trabajo
+                if tasks:
+                    tasks.pop(0)
+                    task_list.controls.pop(0)
+                    page.update()
+                await countdown(5, 0, "Descanso")   # 5 minutos de descanso
 
     async def countdown(minutes, seconds, mode):
         nonlocal music_paused, timer_paused
